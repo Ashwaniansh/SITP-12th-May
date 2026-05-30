@@ -1,0 +1,18 @@
+class Person:
+    def get_person(self):
+        self.name = input("Enter Name: ")
+        self.age = input("Enter Age: ")
+class Employee(Person):
+    def get_employee(self):
+        self.emp_id = input("Enter Employee ID: ")
+        self.salary = input("Enter Salary: ")
+    def display(self):
+        print("\nEmployee Details")
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Employee ID:", self.emp_id)
+        print("Salary:", self.salary)
+emp = Employee()
+emp.get_person()
+emp.get_employee()
+emp.display()

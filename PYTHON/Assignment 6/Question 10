@@ -1,0 +1,19 @@
+class Vehicle:
+    def get_vehicle(self):
+        self.brand = input("Enter vehicle brand: ")
+class Car(Vehicle):
+    def get_car(self):
+        self.model = input("Enter car model: ")
+class SportsCar(Car):
+    def get_sportscar(self):
+        self.speed = input("Enter top speed: ")
+    def display(self):
+        print("\nSports Car Details")
+        print("Brand:", self.brand)
+        print("Model:", self.model)
+        print("Top Speed:", self.speed)
+s = SportsCar()
+s.get_vehicle()
+s.get_car()
+s.get_sportscar()
+s.display()

@@ -1,0 +1,6 @@
+name = "Ashwani"
+course = "Data Science with AI & ML"
+city = "Madhubani"
+print("Name :", name)
+print("Course :", course)
+print("City :", city)

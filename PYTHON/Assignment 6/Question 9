@@ -1,0 +1,16 @@
+class Person:
+    def get_person(self):
+        self.name = input("Enter name: ")
+        self.age = int(input("Enter age: "))
+class Teacher(Person):
+    def get_teacher(self):
+        self.subject = input("Enter subject: ")
+    def display(self):
+        print("\nTeacher Details")
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Subject:", self.subject)
+t = Teacher()
+t.get_person()
+t.get_teacher()
+t.display()

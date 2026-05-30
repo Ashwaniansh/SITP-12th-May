@@ -1,0 +1,11 @@
+class Student:
+    name = ""
+    roll_number = 0
+    course = ""
+s1 = Student()
+s1.name = "Aswhani Kumar"
+s1.roll_number = 2
+s1.course = "MCA"
+print("Name:", s1.name)
+print("Roll Number:", s1.roll_number)
+print("Course:", s1.course)

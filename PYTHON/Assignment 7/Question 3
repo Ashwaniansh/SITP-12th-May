@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self, name, roll_number, marks):
+        self.name = name
+        self.roll_number = roll_number
+        self.marks = marks
+    def display(self):
+        print("Student Name:", self.name)
+        print("Roll Number:", self.roll_number)
+        print("Marks:", self.marks)
+name = input("Enter Student Name: ")
+roll = input("Enter Roll Number: ")
+marks = input("Enter Marks: ")
+print(">>>>>>>>>><<<<<<<<<<")
+student = Student(name, roll, marks)
+student.display()

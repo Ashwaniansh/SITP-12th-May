@@ -1,0 +1,16 @@
+class Student:
+    def get_details(self, name, roll_number, marks):
+        self.name = name
+        self.roll_number = roll_number
+        self.marks = marks
+    def display_details(self):
+        print("Student Name:", self.name)
+        print("Roll Number:", self.roll_number)
+        print("Marks:", self.marks)
+student = Student()
+name = input("Enter Student Name: ")
+roll = input("Enter Roll Number: ")
+marks = input("Enter Marks: ")
+print(">>>>>>>>>>>>>>><<<<<<<<<<<<<<<")
+student.get_details(name, roll, marks)
+student.display_details()

@@ -1,0 +1,19 @@
+class BankAccount:
+    balance = 0
+    def deposit(self):
+        amount = float(input("Enter deposit amount:- "))
+        self.balance = self.balance + amount
+        print("Money Successfully Deposited.")
+    def withdraw(self):
+        amount = float(input("Enter withdraw amount:- "))
+        if amount <= self.balance:
+            self.balance = self.balance - amount
+            print("Money Successfully Withdraw.")
+        else:
+            print("Insufficient Balance.")
+    def check_balance(self):
+        print("Current Balance:", self.balance)
+b = BankAccount()
+b.deposit()
+b.withdraw()
+b.check_balance()

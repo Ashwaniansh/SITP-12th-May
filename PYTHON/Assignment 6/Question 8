@@ -1,0 +1,15 @@
+class Employee:
+    def __init__(self, name, emp_id, monthly_salary):
+        self.name = name
+        self.emp_id = emp_id
+        self.monthly_salary = monthly_salary
+    def yearly_salary(self):
+        return self.monthly_salary * 12
+    def display(self):
+        print("\nEmployee Details")
+        print("Name:", self.name)
+        print("Employee ID:", self.emp_id)
+        print("Monthly Salary:", self.monthly_salary)
+        print("Yearly Salary:", self.yearly_salary())
+emp = Employee("Ashwani Kumar", 2, 20000)
+emp.display()

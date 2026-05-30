@@ -1,0 +1,5 @@
+text = input("Enter a string: ")
+reverse_text = text[::-1]
+count = len(text)
+print("Reversed String:", reverse_text)
+print("Total Characters:", count)

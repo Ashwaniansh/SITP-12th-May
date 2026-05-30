@@ -1,0 +1,14 @@
+# ATM Withdrawal using Nested if
+correct_pin = 9296
+balance = 250000
+pin = int(input("Enter ATM PIN: "))
+if pin == correct_pin:
+    amount = int(input("Enter withdrawal amount: "))
+    if amount <= balance:
+        print("Transaction Successful")
+        balance = balance - amount
+        print("Remaining Balance:", balance)
+    else:
+        print("Insufficient Balance")
+else:
+    print("Incorrect PIN")

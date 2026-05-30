@@ -1,0 +1,19 @@
+class Calculator:
+    def add(self, a, b):
+        print("Addition =", a + b)
+    def subtract(self, a, b):
+        print("Subtraction =", a - b)
+    def multiply(self, a, b):
+        print("Multiplication =", a * b)
+    def divide(self, a, b):
+        if b != 0:
+            print("Division =", a / b)
+        else:
+            print("Division by zero is not possible")
+cal = Calculator()
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+cal.add(n1, n2)
+cal.subtract(n1, n2)
+cal.multiply(n1, n2)
+cal.divide(n1, n2)

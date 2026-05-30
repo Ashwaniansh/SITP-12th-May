@@ -1,0 +1,7 @@
+
+text = "Data Science with AI & ML"
+
+print("Original String:", text)
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+print("Length of String:", len(text))

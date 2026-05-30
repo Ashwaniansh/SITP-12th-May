@@ -1,0 +1,9 @@
+# Creating a list
+numbers = [10, 20, 30, 40, "Ashwani", 50]
+# Printing elements using indexing
+print("First Element:", numbers[0])
+print("Second Element:", numbers[1])
+print("Third Element:", numbers[2])
+print("Fourth Element:", numbers[3])
+print("Fifth Element:", numbers[4])
+print("Sixth Element:", numbers[5])

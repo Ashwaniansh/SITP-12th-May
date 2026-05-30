@@ -1,0 +1,3 @@
+students = ["Anshu", "Ashwani", "Vivek"]
+students.append("Aman")
+print("Updated Student List:", students)

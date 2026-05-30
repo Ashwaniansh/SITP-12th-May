@@ -1,0 +1,6 @@
+class NumberSeries:
+    def print_numbers(self):
+        for x in range(1, 101):
+            print(x)
+series = NumberSeries()
+series.print_numbers()

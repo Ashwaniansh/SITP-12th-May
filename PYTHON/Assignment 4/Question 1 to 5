@@ -1,0 +1,199 @@
+#INTEGER
+# age = 22
+# marks = 95
+# print(age)
+# print(type(age))
+
+# # FLOAT
+# price = 99.99
+# print(price)
+# print(type(price))
+
+# STRING
+# name = "Ashwani"
+# message = 'Hello World'
+
+# print(name)
+# print(type(name))
+
+# String operation
+# text = "Python"
+# print(text.upper())      
+# print(text.lower())      
+# print(len(text))        
+
+# Boolean
+# is_student = True
+# is_logged_in = False
+# print(is_student)
+# print(type(is_student))
+# age = 22
+# print(age >= 18)
+
+# LIST
+# numbers = [10, 20, 30, 40]
+# print(numbers)
+# print(type(numbers))
+
+# LIST OPERATION
+# students = ["Ashwani", "Anshu", "Anshika"]
+# students.append("Aman")   # Add item
+# print(students)
+# print(students[0])        # Indexing
+
+# TUPLE
+# colors = ("Red", "Green", "Blue")
+# print(colors[1])
+# print(colors)
+# print(type(colors))
+
+# SET
+# numbers = {1, 2, 3, 4}
+# print(numbers)
+# print(type(numbers))
+
+# SET OPERATION
+# A = {1, 2, 3}
+# B = {3, 4, 5}
+# print(A.union(B))
+# print(A.intersection(B))
+
+# DICTIONARY
+student = {
+    "name": "ASHWANI KUMAR",
+    "age": 22,
+    "course": "Data Science"
+}
+# print(student)
+# print(type(student))
+
+# DICTIONARY OPERATION
+# student = {
+#     "name": "Anshu",
+#     "age": 21,
+#     "course": "Python"
+# }
+# print(student["name"])
+# student["age"] = 20
+# student["city"] = "Patna"
+# print(student)
+
+# Type function
+# Integer
+# a = 10
+# # Float
+# b = 5.5
+# # String
+# c = "Hello Python"
+# # Boolean
+# d = True
+# # List
+# e = [1, 2, 3]
+# # Tuple
+# f = (10, 20, 30)
+# # Set
+# g = {1, 2, 3}
+# # Dictionary
+# h = {"name": "Ansh", "age": 21}
+# # Printing values and their data types
+# print("Value of a:", a)
+# print("Data Type of a:", type(a))
+# print("Value of b:", b)
+# print("Data Type of b:", type(b))
+# print("Value of c:", c)
+# print("Data Type of c:", type(c))
+# print("Value of d:", d)
+# print("Data Type of d:", type(d))
+# print("Value of e:", e)
+# print("Data Type of e:", type(e))
+# print("Value of f:", f)
+# print("Data Type of f:", type(f))
+# print("Value of g:", g)
+# print("Data Type of g:", type(g))
+# print("Value of h:", h)
+# print("Data Type of h:", type(h))
+
+# Mutable vs Immutable
+# numbers = [10, 20, 30]
+# print("Original List:", numbers)
+# numbers[1] = 50
+# print("Modified List:", numbers)
+# name = "Python"
+# print(name)
+# name[0] = "J"
+
+# text = "Hello"
+# new_text = text.replace("H", "J")
+# print(text)
+# print(new_text)
+
+# fruits = ["Apple", "Banana"]
+# fruits.append("Mango")
+# print(fruits)
+
+# Operation
+# List Operations
+# numbers = [10, 20, 30, 40]
+# print("Original List:", numbers)
+# # append()
+# numbers.append(50)
+# print("After append():", numbers)
+# # remove()
+# numbers.remove(20)
+# print("After remove():", numbers)
+# # slicing
+# print("List Slicing:", numbers[1:4])
+
+# # Tuple Indexing
+# colors = ("Red", "Green", "Blue", "Yellow")
+# print("\nTuple:", colors)
+# # Indexing
+# print("First Element:", colors[0])
+# print("Second Element:", colors[1])
+
+# # Set Operations
+# A = {1, 2, 3, 4}
+# B = {3, 4, 5, 6}
+# print("\nSet A:", A)
+# print("Set B:", B)
+# # Union
+# print("Union:", A.union(B))
+# # Intersection
+# print("Intersection:", A.intersection(B))
+
+# # Dictionary Operations
+# student = {
+#     "name": "Ansh",
+#     "age": 21,
+#     "course": "Python"
+# }
+# print("\nDictionary:", student)
+# # keys()
+# print("Keys:", student.keys())
+# # values()
+# print("Values:", student.values())
+# # items()
+# print("Items:", student.items())
+
+
+# Mini Student Management System
+# Student details stored in Dictionary
+student = {
+    "name": "Ashwani Kumar",
+    "roll_no": 2,
+    "course": "MCA"
+}
+# Subject marks stored in List
+marks = [85, 90, 78, 88, 92]
+# Calculate total marks
+total = sum(marks)
+# Calculate average marks
+average = total / len(marks)
+# Display output
+print("------ Student Details ------")
+print("Name      :", student["name"])
+print("Roll No   :", student["roll_no"])
+print("Course    :", student["course"])
+print("\nSubject Marks :", marks)
+print("\nTotal Marks   :", total)
+print("Average Marks :", average)
