@@ -43,10 +43,11 @@ def predict():
            'Yezdi':21,              'MV':22,           'Ideal':23
            }
         brand_name=brand_dict.get(brand_name)
+        print([brand_name, owner, age, power, kms_driven])
         pred=model.predict([[brand_name, owner, age, power, kms_driven]])
         print("prediction:->>>>>>>>",pred)
     #     print("outcome:-",brand_name, owner, age, power, kms_driven)
-    return render_template('project.html, prediction=pred')
+    return render_template('project.html', prediction=pred)
 
 if __name__=="__main__":
     app.run(debug=True)
