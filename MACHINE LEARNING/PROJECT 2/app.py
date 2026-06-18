@@ -46,7 +46,7 @@ def predict():
         pred=model.predict([[brand_name, owner, age, power, kms_driven]])
         print("prediction:->>>>>>>>",pred)
     #     print("outcome:-",brand_name, owner, age, power, kms_driven)
-    return render_template('project.html, prediction=pred[0]')
+    return render_template('project.html, prediction=pred')
 
 if __name__=="__main__":
     app.run(debug=True)
