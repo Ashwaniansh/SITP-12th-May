@@ -58,16 +58,7 @@ def predict():
         loan_amount,
         years_employed
     ]])
-    print("================================")
-    print("Income =", income)
-    print("Credit Score =", credit_score)
-    print("Loan Amount =", loan_amount)
-    print("Years Employed =", years_employed)
-    print("Raw Prediction =", pred)
-    print("================================")
-
-
-    if pred[0] == 1:
+    if pred[0] == 2:
         result = "Loan Approved"
     else:
         result = "Loan Rejected"
