@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prediction History</title>
+</head>
+<body>
+<h1>Loan Prediction History</h1>
+<table border="1">
+<tr>
+<th>ID</th>
+<th>Income</th>
+<th>Credit Score</th>
+<th>Loan Amount</th>
+<th>Years Employed</th>
+<th>Prediction</th>
+</tr>
+
+{% for row in historical_data %}
+
+<tr>
+<td>{{ row[0] }}</td>
+<td>{{ row[1] }}</td>
+<td>{{ row[2] }}</td>
+<td>{{ row[3] }}</td>
+<td>{{ row[4] }}</td>
+<td>{{ row[5] }}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+
+<a href="/">Home</a>
+
+</body>
+</html>
