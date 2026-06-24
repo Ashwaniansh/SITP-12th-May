@@ -1,0 +1,16 @@
+venv/
+env/
+.venv/
+
+Lib/
+Scripts/
+Include/
+
+site-packages/
+
+__pycache__/
+*.pyc
+*.pyd
+
+*.h5
+*.joblib
